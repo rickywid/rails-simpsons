@@ -1,0 +1,27 @@
+<h1>List</h1>
+<div id ="add">
+<span class="button"><%= link_to "ADD CHARACTER", new_simpson_path %></span>
+</div>
+<table>
+<tr>
+<td>First Name</td>
+<td>Last Name</td>
+<td>Occupation</td>
+<td></td>
+</tr>
+</table>
+<table class = "list">
+
+<% @char.each do |x| %>
+	<tr>
+	<td><%= x.fname %></td>
+	<td><%= x.lname %></td>
+	<td><%= x.occupation %></td>
+	<td><%= link_to "Edit", edit_simpson_path(x) %> <%= link_to "Delete", simpson_path(x), method: :delete %></td>
+	</tr>
+	</li>
+
+<%end%>
+</table>
+
+

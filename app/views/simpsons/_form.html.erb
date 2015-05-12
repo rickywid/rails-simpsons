@@ -1,0 +1,14 @@
+<%= form_for @char do |x| %>
+	<%= x.label "First Name" %>
+	<%= x.text_field :fname %>
+
+	<%= x.label "Last Name" %>
+	<%= x.text_field :lname %>
+
+	<%= x.label :Occupation %>
+	<%= x.text_field :occupation %>
+
+	<%= x.submit "Submit" %>
+<% end %>
+<br>
+	<span class="button"><%= link_to "Back", simpsons_path %></span>
