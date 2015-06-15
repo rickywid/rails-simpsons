@@ -1,6 +1,11 @@
 // Place all the styles related to the simpsons controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+	color:black;
+}
+
+
 body {
 	background-image: url("http://vignette4.wikia.nocookie.net/simpsons/images/a/a2/Wiki-background_update_2.jpg/revision/latest/scale-to-width/1024?cb=20111014041518");
 	background-size: 100%;	
@@ -15,10 +20,12 @@ td{
 img {
 	height:15%;
 	width: 15%;
+
 }
 
 .list{
-border-top: 1px solid black;
+border-top: 5px solid #555555;
+border-bottom: 5px solid #555555;
 }
 
 .header {
@@ -27,6 +34,7 @@ border-top: 1px solid black;
 	width: 100%;
 	position: fixed;
 	background-color: yellow;
+	border-bottom:5px solid white;
 }
 
 .footer {
@@ -35,6 +43,7 @@ border-top: 1px solid black;
 	width: 100%;
 	position: fixed;
 	background-color: yellow;
+	border-top:5px solid white;
 }
 
  
@@ -57,17 +66,13 @@ ul {
 }
 .button {
 	background-color: #ffff00;
-	padding: 5px;
 }
-.button:hover {
-	background-color: #fff000;
-	padding: 5px;
+.edit {
+	text-align: right;
 }
+
 a {
 	text-decoration: none;
-	color: black;
-}
-a:hover {
-	text-decoration: none;
-	color: #ffffff;
+	color:black;
+
 }

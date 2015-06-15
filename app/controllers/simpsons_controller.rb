@@ -4,6 +4,9 @@ class SimpsonsController < ApplicationController
 
 	def index
 		@char = Simpson.all
+		if @char.empty? 
+			puts "The list is empty"
+		end
 	end
 
 	def new
