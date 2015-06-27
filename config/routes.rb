@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
-	resources :articles
+	root to: 'simpsons#index'
+
+
+	resources :simpsons
 
 end
