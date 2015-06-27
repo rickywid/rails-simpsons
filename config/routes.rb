@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-    resources :simpsons
+	resources :articles
+
 end
