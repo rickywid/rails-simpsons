@@ -16,6 +16,7 @@ body {
 }
 td{
 	width: 300px;
+	padding: 10px;
 }
 
 img {
@@ -25,8 +26,8 @@ img {
 }
 
 .list{
-border-top: 5px solid #FFD500;
-border-bottom: 5px solid #FFD500;
+border-top: 2px solid #FFD500;
+border-bottom: 2px solid #FFD500;
 }
 
 .header {
@@ -73,6 +74,8 @@ ul {
 .button {
 	background-color: #ffff00;
 	padding: 5px;
+	border-top: 1px solid white;
+	border-radius: 5px;
 }
 .edit {
 	text-align: right;
@@ -83,3 +86,4 @@ a {
 	color:black;
 
 }
+
