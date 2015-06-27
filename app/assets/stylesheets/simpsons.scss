@@ -9,7 +9,7 @@ html {
 body {
 	background-image: url("http://vignette4.wikia.nocookie.net/simpsons/images/a/a2/Wiki-background_update_2.jpg/revision/latest/scale-to-width/1024?cb=20111014041518");
 	background-size: 100%;	
-	font-family: billo;
+	font-family: "arial";
 }
 .container {
 	padding:100px;
@@ -45,6 +45,10 @@ border-bottom: 5px solid #FFD500;
 	position: fixed;
 	background-color: yellow;
 	border-top:5px solid white;
+}
+
+p.footer {
+	text-align: center;
 }
 
  
